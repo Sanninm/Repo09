@@ -1,6 +1,7 @@
 // Only change code below this line 
-function switchCase(animals) {
-    switch (animals) {
+function switchCase(letter) {
+    var animals;
+    switch (letter) {
     case "a":
       animals = "antelope";
     break;
@@ -16,6 +17,12 @@ function switchCase(animals) {
 }
 return animals; 
 } 
+
+switchCase("a")
+switchCase("b")
+switchCase("c")
+switchCase("4")
+
    console.log(switchCase("a"));
    console.log(switchCase("b"));
    console.log(switchCase("c"));
